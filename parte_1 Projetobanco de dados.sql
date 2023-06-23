@@ -1,7 +1,6 @@
-
 create database clinica_psicologia;
 use clinica_psicologia;
-show tables;
+
 create table clinica ( 
 	nome VARCHAR(40) NOT NULL,
 	CNPJ BIGINT NOT NULL,
@@ -53,9 +52,9 @@ VALUES ('Foco Psicologia', '90537564000150', 'Rua Ildefonso,277-Joaquim', 'Foco_
 
 
        
-INSERT ignore INTO Paciente (Nome, CPF, Email, Endereço, Telefone)
+INSERT INTO Paciente (Nome, CPF, Email, Endereço, Telefone)
 VALUES 
-  ('Rafaela Rocha Goncalves', '44734343866', 'RafaelaRocha@gmail.com', 'Rua Morada Nova - CE', '8898682150'),
+  ('Rafaela Rocha Goncalves', '44734345866', 'RafaelaRocha@gmail.com', 'Rua Morada Nova - CE', '8898682150'),
   ('Estevan Barros Sousa', '44734343867', 'EstevanBarrSous@gmail.com', 'Rua Camila Bezerra - CE', '8895356666'),
   ('Carla Melo Azevedo', '36210805620', 'CarlaMelAzeved@gmail.com', 'Rua Manuel Monteiro - CE', '8596605867'),
   ('Beatrice Martins Costa', '12344635041', 'BeatriceMartins@gmail.com', 'Rua do Cajueiro - CE', '8591216958'),
@@ -65,41 +64,41 @@ VALUES
   ('Juliana Souza Rodrigues', '56481273023', 'JulianaSouza@gmail.com', 'Avenida dos Ventos - CE', '8597778889'),
   ('Diego Silva Alves', '78903218456', 'DiegoSilvaAlves@gmail.com', 'Rua da Paz - CE', '8891234567'),
   ('Carolina Santos Lima', '32109745312', 'CarolinaSLima@gmail.com', 'Rua das Margaridas - CE', '8595556666'),
-  ('Gabriel Oliveira Castro', '65431208749', 'GabrielOCastro@gmail.com', 'Avenida dos Coqueiros - CE', '8896667778'),
+  ('Gabriel Oliveira Castro', '65431108749', 'GabrielOCastro@gmail.com', 'Avenida dos Coqueiros - CE', '8896667778'),
   ('Larissa Costa Pereira', '47859271036', 'LarissaCPereira@gmail.com', 'Rua das Águias - CE', '8593456789'),
   ('Fernando Alves Santos', '14785236901', 'FernandoASantos@gmail.com', 'Avenida do Mar - CE', '8891234567'),
   ('Bianca Lima Gomes', '78932165407', 'BiancaLimaGomes@gmail.com', 'Rua das Estrelas - CE', '8599876543'),
   ('Rodrigo Sousa Santos', '45601237890', 'RodrigoSSantos@gmail.com', 'Rua das Borboletas - CE', '8896541234'),
   ('Mariana Oliveira Ribeiro', '78945612330', 'MarianaORibeiro@gmail.com', 'Avenida das Rosas - CE', '8591234567'),
-  ('Felipe Santos Costa', '32165498760', 'FelipeSCosta@gmail.com', 'Rua dos Lírios - CE', '8899876543'),
+  ('Felipe Santos Costa', '37165498760', 'FelipeSCosta@gmail.com', 'Rua dos Lírios - CE', '8899876543'),
   ('Vanessa Pereira Lima', '65478932106', 'VanessaPLima@gmail.com', 'Rua dos Girassóis - CE', '8596543210'),
-  ('Ricardo Lima Oliveira', '32165498745', 'RicardoLOliveira@gmail.com', 'Avenida das Orquídeas - CE', '8891234567'),
-  ('Isabela Rodrigues Almeida', '65432178907', 'IsabelaRAlmeida@gmail.com', 'Rua dos Cravos - CE', '8597894561'),
+  ('Ricardo Lima Oliveira', '32165468745', 'RicardoLOliveira@gmail.com', 'Avenida das Orquídeas - CE', '8891234567'),
+  ('Isabela Rodrigues Almeida', '65431178907', 'IsabelaRAlmeida@gmail.com', 'Rua dos Cravos - CE', '8597894561'),
   ('Gustavo Oliveira Souza', '78965432107', 'GustavoOSouza@gmail.com', 'Avenida das Violetas - CE', '8894567890'),
   ('Sandra Castro Rocha', '45698732104', 'SandraCRocha@gmail.com', 'Rua dos Ipês - CE', '8591234567'),
-  ('Paulo Almeida Lima', '98765432109', 'PauloALima@gmail.com', 'Avenida dos Jasmim - CE', '8899876543'),
-  ('Mariana Oliveira Lima', '12398745603', 'MarianaOLima@gmail.com', 'Rua das Begônias - CE', '8596543210'),
-  ('Fernando Rodrigues Silva', '98712365407', 'FernandoRSilva@gmail.com', 'Avenida dos Crisântemos - CE', '8891234567'),
+  ('Paulo Almeida Lima', '98963432109', 'PauloALima@gmail.com', 'Avenida dos Jasmim - CE', '8899876543'),
+  ('Mariana Oliveira Lima', '22398745603', 'MarianaOLima@gmail.com', 'Rua das Begônias - CE', '8596543210'),
+  ('Fernando Rodrigues Silva', '98112360407', 'FernandoRSilva@gmail.com', 'Avenida dos Crisântemos - CE', '8891234567'),
   ('Carolina Sousa Almeida', '32165498745', 'CarolinaSAlmeida@gmail.com', 'Rua das Margaridas - CE', '8597894561'),
   ('Lucas Costa Lima', '65432178907', 'LucasCLima@gmail.com', 'Avenida das Azaleias - CE', '8897894561'),
   ('Mariana Castro Oliveira', '78965432106', 'MarianaCOliveira@gmail.com', 'Rua das Camélias - CE', '8596547890'),
-  ('Gabriel Lima Souza', '12398765403', 'GabrielLSouza@gmail.com', 'Avenida das Hortências - CE', '8896543210'),
-  ('Fernanda Almeida Costa', '98765432109', 'FernandaACosta@gmail.com', 'Rua das Magnólias - CE', '8591234567'),
-  ('André Silva Lima', '12345678903', 'AndreSLima@gmail.com', 'Avenida das Dálias - CE', '8899876543'),
-  ('Juliana Oliveira Santos', '98765432107', 'JulianaOSantos@gmail.com', 'Rua das Petúnias - CE', '8594567890'),
+  ('Gabriel Lima Souza', '14398765403', 'GabrielLSouza@gmail.com', 'Avenida das Hortências - CE', '8896543210'),
+  ('Fernanda Almeida Costa', '93765472109', 'FernandaACosta@gmail.com', 'Rua das Magnólias - CE', '8591234567'),
+  ('André Silva Lima', '12545678903', 'AndreSLima@gmail.com', 'Avenida das Dálias - CE', '8899876543'),
+  ('Juliana Oliveira Santos', '98615432107', 'JulianaOSantos@gmail.com', 'Rua das Petúnias - CE', '8594567890'),
   ('Carlos Sousa Lima', '65412378906', 'CarlosSLima@gmail.com', 'Avenida das Violetas - CE', '8896543210'),
-  ('Isabella Almeida Costa', '12345678902', 'IsabellaACosta@gmail.com', 'Rua das Orquídeas - CE', '8591234567'),
-  ('Ricardo Oliveira Lima', '98765432109', 'RicardoOLima@gmail.com', 'Avenida das Rosas - CE', '8897894561'),
-  ('Bruna Silva Castro', '12345678902', 'BrunaSCastro@gmail.com', 'Rua das Margaridas - CE', '8596543210'),
-  ('Leonardo Lima Souza', '98765432109', 'LeonardoLSouza@gmail.com', 'Avenida das Begônias - CE', '8891234567'),
-  ('Larissa Castro Oliveira', '12345678903', 'LarissaCOliveira@gmail.com', 'Rua das Azaleias - CE', '8597894561'),
-  ('Felipe Almeida Silva', '98765432109', 'FelipeASilva@gmail.com', 'Avenida das Camélias - CE', '8896547890'),
-  ('Amanda Lima Costa', '12345678902', 'AmandaLCosta@gmail.com', 'Rua das Hortências - CE', '8591234567'),
-  ('Gustavo Oliveira Souza', '98765432109', 'GustavoOSouza@gmail.com', 'Avenida das Magnólias - CE', '8899876543'),
-  ('Sandra Almeida Lima', '12345678903', 'SandraALima@gmail.com', 'Rua das Dálias - CE', '8594567890'),
-  ('Paulo Silva Costa', '98765432109', 'PauloSCosta@gmail.com', 'Avenida das Petúnias - CE', '8896543210'),
-  ('Mariana Oliveira Lima', '12345678902', 'MarianaOLima@gmail.com', 'Rua das Violetas - CE', '8591234567'),
-  ('Fernando Almeida Silva', '98765432109', 'FernandoASilva@gmail.com', 'Avenida das Orquídeas - CE', '8897894561');
+  ('Isabella Almeida Costa', '62345678902', 'IsabellaACosta@gmail.com', 'Rua das Orquídeas - CE', '8591234567'),
+  ('Ricardo Oliveira Lima', '98767432609', 'RicardoOLima@gmail.com', 'Avenida das Rosas - CE', '8897894561'),
+  ('Bruna Silva Castro', '12395674902', 'BrunaSCastro@gmail.com', 'Rua das Margaridas - CE', '8596543210'),
+  ('Leonardo Lima Souza', '98765932109', 'LeonardoLSouza@gmail.com', 'Avenida das Begônias - CE', '8891234567'),
+  ('Larissa Castro Oliveira', '18545678903', 'LarissaCOliveira@gmail.com', 'Rua das Azaleias - CE', '8597894561'),
+  ('Felipe Almeida Silva', '98760432189', 'FelipeASilva@gmail.com', 'Avenida das Camélias - CE', '8896547890'),
+  ('Amanda Lima Costa', '12349978602', 'AmandaLCosta@gmail.com', 'Rua das Hortências - CE', '8591234567'),
+  ('Gustavo Oliveira Souza', '98062432101', 'GustavoOSouza@gmail.com', 'Avenida das Magnólias - CE', '8899876543'),
+  ('Sandra Almeida Lima', '12885678973', 'SandraALima@gmail.com', 'Rua das Dálias - CE', '8594567890'),
+  ('Paulo Silva Costa', '98765430109', 'PauloSCosta@gmail.com', 'Avenida das Petúnias - CE', '8896543210'),
+  ('Mariana Oliveira Lima', '09345678902', 'MarianaOLima@gmail.com', 'Rua das Violetas - CE', '8591234567'),
+  ('Fernando Almeida Silva', '98565431809', 'FernandoASilva@gmail.com', 'Avenida das Orquídeas - CE', '8897894561');
 
 
        
@@ -240,9 +239,3 @@ VALUES
   (01383, 'Paulo Silva Costa', '2023-10-15', 'Pix', 200.00),
   (01384, 'Mariana Oliveira Lima', '2023-11-01', 'Dinheiro', 150.50),
   (01385, 'Fernando Almeida Silva', '2023-11-05', 'Cartão', 160.25);
-
-
-  
-  drop table Paciente;
-  
-  select *from psicologo;
