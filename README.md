@@ -57,7 +57,7 @@ Relatórios personalizados: Possibilidade de criar queries para gerar relatório
 1. Clonar o Repositório
 bash
 Copiar código
-git clone https://github.com/seu-usuario/sistema-clinica-psicologia.git
+git clone https://github.com/Alekyne/Projeto_BD_pt1.git
 cd sistema-clinica-psicologia
 2. Importar o Banco de Dados
 Use o software de sua preferência (MySQL Workbench, phpMyAdmin, etc.).
